@@ -1,6 +1,96 @@
 <!DOCTYPE html>
 <html>
-	<body>
-		<h1>PRIDE!</h1>
-	</body>
+<head>
+<style>
+.container {
+	position: relative;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+</style>
+</head>
+<body background="Assets/Background.png">
+	<h1>PRIDE!</h1>
+	<table colspan=4 class="table">
+		<tr >
+		<td><div class="container">
+			<img src="Assets/Subject1A.png" class="image">
+			<div class="overlay">
+				<img src="Assets/Subject1B.png" class="image">
+				<img src="Assets/Subject1C.png" class="image">
+			</div>
+		</div></td>
+		<td><div class="container">
+			<img src="Assets/Subject2A.png" class="image">
+			<div class="overlay">
+				<img src="Assets/Subject2B.png" class="image">
+				<img src="Assets/Subject2C.png" class="image">
+			</div>
+		</div></td>
+		<td><div class="container">
+			<img src="Assets/Subject3A.png" class="image">
+			<div class="overlay">
+				<img src="Assets/Subject3B.png" class="image">
+				<img src="Assets/Subject3C.png" class="image">
+			</div>
+		</div></td>
+		<td><div class="container">
+			<img src="Assets/Subject4A.png" class="image">
+			<div class="overlay">
+				<img src="Assets/Subject4B.png" class="image">
+				<img src="Assets/Subject4C.png" class="image">
+			</div>
+		</div></td>
+		</tr>
+		<tr height=300px />
+		<tr>
+		<td><div class="container">
+			<img src="Assets/Subject5A.png" class="image">
+			<div class="overlay">
+				<img src="Assets/Subject5B.png" class="image">
+				<img src="Assets/Subject5C.png" class="image">
+			</div>
+		</div></td>
+		<td><div class="container">
+			<img src="Assets/Subject6A.png" class="image">
+			<div class="overlay">
+				<img src="Assets/Subject6B.png" class="image">
+				<img src="Assets/Subject6C.png" class="image">
+			</div>
+		</div></td>
+		<td><div class="container">
+			<img src="Assets/Subject7A.png" class="image">
+			<div class="overlay">
+				<img src="Assets/Subject7B.png" class="image">
+				<img src="Assets/Subject7C.png" class="image">
+			</div>
+		</div></td>
+		</tr>
+</body>
 </html>
