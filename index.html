@@ -33,11 +33,26 @@
 	table-layout: fixed;
 }
 
+@font-face {
+	font-family: "BrushScript";
+	src: url("Assets/BrushScriptStd.otf") format("opentype");
+}
+
+.stroke
+{
+    color: black;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;  
+}
+
 </style>
 </head>
 <body background="Assets/Background.png">
-	<h1>PRIDE!</h1>
-	<table colspan=4 class="table">
+	<h1 style="text-align: center; font-family: 'BrushScript';"><font size="50" class="stroke">PRIDE!</font></h1>
+	<table colspan=3 class="table">
 		<tr >
 		<td><div class="container">
 			<img src="Assets/Subject1A.png" class="image">
@@ -60,6 +75,7 @@
 				<img src="Assets/Subject3C.png" class="image">
 			</div>
 		</div></td>
+		</tr><tr height=400px /><tr>
 		<td><div class="container">
 			<img src="Assets/Subject4A.png" class="image">
 			<div class="overlay">
@@ -67,9 +83,6 @@
 				<img src="Assets/Subject4C.png" class="image">
 			</div>
 		</div></td>
-		</tr>
-		<tr height=300px />
-		<tr>
 		<td><div class="container">
 			<img src="Assets/Subject5A.png" class="image">
 			<div class="overlay">
@@ -83,6 +96,7 @@
 				<img src="Assets/Subject6B.png" class="image">
 				<img src="Assets/Subject6C.png" class="image">
 			</div>
+			</tr><tr height=400px /><tr>
 		</div></td>
 		<td><div class="container">
 			<img src="Assets/Subject7A.png" class="image">
